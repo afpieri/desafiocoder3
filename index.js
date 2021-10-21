@@ -2,11 +2,13 @@ const express = require ("express");
 let app = express ();
 let cors = require ("cors");
 const PORT = 3000;
+const ProducController = require("./components/listaproductos/controllers/produccontroller");
 
 app.use(cors('*'))
 
-app.get("/", (req, res)=> {
-     res.json (true);
+app.get("/", async(req, res)=> {
+    let response = await ProducController.getAll();
+     res.json (response);
 } );
 
 app.get ("Lista/productos/", () =>{});

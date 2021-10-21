@@ -10,7 +10,9 @@
     "gloves":[{
         "brand": "",
         "description": "",
-        "price":""    }]
+        "price":""    }],
 
+        "home":[],
+        "general":[]
     
 }
