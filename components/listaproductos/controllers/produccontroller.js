@@ -8,7 +8,7 @@ class ProducController {
 
     async getAll(){
         try {
-            return await JSON.parse(handlerDocuments.readDocument())
+            return JSON.parse(await handlerDocuments.readDocument());
         } catch (error) {
             console.log(error);
         }
@@ -28,4 +28,4 @@ class ProducController {
 
 }
 
-module.exports = new produccontroller();
+module.exports = new ProducController();
