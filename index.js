@@ -4,7 +4,7 @@ let cors = require ("cors");
 const PORT = 3000;
 const ProducController = require("./components/listaproductos/controllers/produccontroller");
 
-app.use(cors('*'))
+app.use(cors('*'));
 
 app.get("/", async(req, res)=> {
     let response = await ProducController.getAll();

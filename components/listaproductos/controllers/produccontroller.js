@@ -1,4 +1,4 @@
-let handlerDocuments = require("../utils/handlercontroller");
+let handlerDocuments = require("../utils/resources/handlercontroller");
 
 class ProducController {
 
