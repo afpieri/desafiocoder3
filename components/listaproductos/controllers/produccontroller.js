@@ -1,6 +1,6 @@
 let handlerDocuments = require("../utils/resources/handlercontroller");
 
-class produccontroller {
+class Produccontroller {
 
     constructor(){
 
@@ -28,4 +28,4 @@ class produccontroller {
 
 }
 
-module.exports = new produccontroller();
+module.exports = new Produccontroller();

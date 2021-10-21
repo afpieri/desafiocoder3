@@ -1,14 +1,17 @@
 {
     "mountainbike":[{
         "brand": "",
+        "check": false,
         "description": "",
         "price":""    }],
     "helmet":[{
         "brand": "",
+        "check": false,
         "description": "",
         "price":""    }],
     "gloves":[{
         "brand": "",
+        "check": false,
         "description": "",
         "price":""    }],
 

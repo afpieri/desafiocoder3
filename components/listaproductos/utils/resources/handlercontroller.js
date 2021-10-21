@@ -51,4 +51,4 @@ async crearCarpeta(){
 
 }
 
-module.exports = new handlerDocuments()
+module.exports = new handlerDocuments();
